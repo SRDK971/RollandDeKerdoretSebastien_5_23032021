@@ -1,6 +1,5 @@
 header {
     background: #f3e9f1;
-    max-width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,10 +13,10 @@ header {
 .header__nav {
     margin-right: 2rem;
     text-decoration: none;
-    outline: none;
-}
-
-.header__nav__link {
-    text-decoration: none;
-    outline: none;
+    li,
+    a {
+        text-decoration: none;
+        list-style: none;
+        color: black;
+    }
 }

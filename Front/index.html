@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="./style.css" />
         <title>Accueil - Orinoco</title>
     </head>
     <body>
@@ -21,9 +21,21 @@
         </header>
 
         <section class="value">
-            <h1 class="value__title">La référence des meubles en chêne</h1>
+            <h1 class="value__title">
+                Les meubles en chêne <br />
+                made in France
+            </h1>
+            <p class="value__subtitle">Personnalisez vos meubles en ligne</p>
         </section>
-
-        <footer></footer>
+        <main class="main">
+            <h1>Les plus populaires</h1>
+            <div id="allProduct"></div>
+        </main>
+        <footer class="footer">
+            <p><a href="#" class="footer__link">Mentions légales</a></p>
+            <p><a href="mailto:contact@orinoco.com" class="footer__link">Contact</a></p>
+        </footer>
+        <script src="./js/ajax.js"></script>
+        <script src="./js/index.js"></script>
     </body>
 </html>

@@ -1,0 +1,13 @@
+.footer {
+    background: #f3e9f1;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    .footer__link {
+        color: black;
+    }
+}

@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+* {
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1440px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 15rem;
+  margin-left: 2rem;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+p,
+li,
+a {
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+
+header {
+  background: #f3e9f1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  width: 15rem;
+  margin-left: 2rem;
+}
+
+.header__nav {
+  margin-right: 2rem;
+  text-decoration: none;
+}
+.header__nav li,
+.header__nav a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+.footer {
+  background: #f3e9f1;
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+.footer .footer__link {
+  color: black;
+}
+
+.value .value__title {
+  text-align: center;
+  margin: 4rem auto;
+}
+.value .value__subtitle {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.main {
+  margin: 4rem auto;
+  width: 80%;
+}
+
+/*# sourceMappingURL=style.css.map */
