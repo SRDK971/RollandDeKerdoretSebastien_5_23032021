@@ -4,14 +4,31 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-            crossorigin="anonymous"
-        />
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="./style.css" />
         <title>Panier</title>
     </head>
-    <body></body>
+    <body>
+        <header class="header">
+            <a href="index.html" class="header__logo">
+                <img src="img/Logo Orinoco.png" alt="Logo Orinoco" class="logo" />
+            </a>
+
+            <nav class="header__nav">
+                <ul class="header__nav__list">
+                    <li><a href="./panier.html" class="header__nav__link">Panier</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="main">
+            <div id="rootProduct" class="container"></div>
+            <p class="erreur"></p>
+        </div>
+        <footer class="footer">
+            <p><a href="#" class="footer__link">Mentions légales</a></p>
+            <p><a href="mailto:contact@orinoco.com" class="footer__link">Contact</a></p>
+        </footer>
+        <script src="./js/basket.js"></script>
+        <script src="./js/product.js"></script>
+        <script src="./js/index.js"></script>
+    </body>
 </html>
