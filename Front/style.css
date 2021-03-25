@@ -58,11 +58,34 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
-  bottom: 0;
 }
 .footer .footer__link {
   color: black;
+}
+
+.card {
+  padding: 1rem;
+  background-color: #f7f7f7;
+  margin: 2rem auto;
+  width: 30rem;
+}
+
+.card__img {
+  width: 28rem;
+  height: 25rem;
+}
+
+.card__body__name {
+  margin-top: 1rem;
+  font-weight: 700;
+}
+
+.card__body__price {
+  margin-top: 1rem;
+}
+
+.card__body__description {
+  margin-top: 1rem;
 }
 
 .value .value__title {
@@ -72,11 +95,6 @@ header {
 .value .value__subtitle {
   text-align: center;
   margin-bottom: 4rem;
-}
-
-.main {
-  margin: 4rem auto;
-  width: 80%;
 }
 
 /*# sourceMappingURL=style.css.map */

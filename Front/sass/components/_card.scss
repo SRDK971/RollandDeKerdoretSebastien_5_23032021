@@ -1,0 +1,20 @@
+.card {
+    padding: 1rem;
+    background-color: #f7f7f7;
+    margin: 2rem auto;
+    width: 30rem;
+}
+.card__img {
+    width: 28rem;
+    height: 25rem;
+}
+.card__body__name {
+    margin-top: 1rem;
+    font-weight: 700;
+}
+.card__body__price {
+    margin-top: 1rem;
+}
+.card__body__description {
+    margin-top: 1rem;
+}
